@@ -1,0 +1,13 @@
+[package]
+name = "email-sender"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = { version = "4.0.27", features = ["derive"] }
+lettre = "0.10.1"
+serde = "1.0.147"
+serde_derive = "1.0.147"
+toml = "0.5.9"
